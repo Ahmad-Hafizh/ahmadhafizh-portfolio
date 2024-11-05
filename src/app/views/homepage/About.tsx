@@ -6,9 +6,9 @@ import { RiNextjsFill, RiTailwindCssFill } from 'react-icons/ri';
 
 const About = () => {
   return (
-    <div className="w-full">
-      <div className="grid grid-cols-2 gap-10">
-        <div className="left relative w-full h-full object-cover bg-[#ececec] rounded-xl">
+    <div className="w-full" id="about">
+      <div className="flex flex-col md:grid md:grid-cols-2 gap-10">
+        <div className="left relative w-full h-[50vh] md:h-full object-cover bg-[#ececec] rounded-xl">
           <Image src="/pfp-about.svg" alt="profile picture" fill />
         </div>
         <div className="right flex flex-col gap-4">
@@ -18,19 +18,16 @@ const About = () => {
             I&apos;ve always had strong passion in coding, designing & problem-solving, which is the passions that I take as my carrer path as web developer. For me a good Website Developer is should be capable to design both appealing
             visual & sustainable systems, which I&apos;m bout to be LMAO.
           </p>
-          {/* <Link href="/" className="px-4 py-2 bg-foreground w-fit text-white rounded-full">
-            More About Me
-          </Link> */}
         </div>
       </div>
       <div className=" w-full flex flex-col justify-center items-center gap-10 py-20">
         <h2 className={`${reenieBeanie.className} text-5xl flex gap-2 `}>tech-stack</h2>
-        <div className="w-[75%] flex justify-between mx-auto">
-          <FaHtml5 className="text-7xl hover:text-red-500" />
-          <FaCss3Alt className="text-7xl hover:text-blue-500" />
-          <IoLogoJavascript className="text-7xl hover:text-yellow-300" />
-          <RiNextjsFill className="text-7xl hover:text-black" />
-          <RiTailwindCssFill className="text-7xl hover:text-blue-400" />
+        <div className="w-full lg:w-[75%] flex justify-center md:justify-between gap-y-10 gap-x-14 md:gap-10 lg:gap-auto items-center text-center mx-auto flex-wrap md:flex-nowrap text-7xl">
+          <FaHtml5 className=" hover:text-red-500" />
+          <FaCss3Alt className=" hover:text-blue-500" />
+          <IoLogoJavascript className=" hover:text-yellow-300" />
+          <RiNextjsFill className=" hover:text-black" />
+          <RiTailwindCssFill className=" hover:text-blue-400" />
         </div>
       </div>
     </div>

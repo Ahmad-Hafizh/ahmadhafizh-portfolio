@@ -7,7 +7,7 @@ export const reenieBeanie = Reenie_Beanie({ weight: '400', subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <div className="container mx-auto px-[5%] pb-20">
+    <div className="container mx-auto px-[5%] pb-20 overflow-hidden">
       <Hero />
       <About />
       <Projects />

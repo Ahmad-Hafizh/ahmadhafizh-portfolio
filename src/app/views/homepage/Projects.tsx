@@ -24,22 +24,22 @@ const Projects = () => {
     },
   ];
   return (
-    <div className="w-full mt-20">
+    <div className="w-full mt-20" id="projects">
       <h2 className="text-5xl font-bold">My Best Project</h2>
-      <div className="card-wrapper w-full h-full grid grid-cols-3 mt-20 gap-4">
+      <div className="card-wrapper w-full mt-20 h-full flex flex-col justify-start  lg:grid lg:grid-cols-2 xl:grid-cols-3 gap-10 lg:gap-5 ">
         {projectDb.map((e, i) => {
           return (
             <div className="card relative w-full h-full flex flex-col gap-4" key={i}>
-              <div className="relative  w-full h-[300px] object-cover rounded-xl overflow-hidden">
+              <div className="relative  w-full h-[400px] lg:h-[300px] object-cover rounded-xl overflow-hidden">
                 <Image src={e.img} alt={e.title} fill />
               </div>
-              <div className="flex justify-between items-center px-2">
-                <div>
-                  <p className="text-2xl font-bold">{e.title}</p>
-                  <div className="flex gap-2">
+              <div className="flex justify-between items-start lg:px-2 ">
+                <div className="flex flex-col gap-2">
+                  <p className="text-xl md:text-2xl font-bold">{e.title}</p>
+                  <div className="flex gap-2 w-full flex-wrap justify-start items-start">
                     {e.techStack.map((e, i) => {
                       return (
-                        <span key={i} className="py-1 px-2 bg-[#ececec] rounded-full text-sm">
+                        <span key={i} className="py-1 px-2 bg-[#ececec] rounded-full text-sm ">
                           {e}
                         </span>
                       );
@@ -47,7 +47,7 @@ const Projects = () => {
                   </div>
                 </div>
                 <div>
-                  <Link href={e.url} className="text-5xl">
+                  <Link href={e.url} className="text-3xl md:text-5xl">
                     <IoEnterOutline />
                   </Link>
                 </div>
