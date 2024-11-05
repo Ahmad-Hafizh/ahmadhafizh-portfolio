@@ -20,9 +20,9 @@ const About = () => {
             I{"'"}ve always had strong passion in coding, designing & problem-solving, which is the passions that I take as my carrer path as web developer. For me a good Website Developer is should be capable to design both appealing
             visual & sustainable systems, which I{"'"}m bout to be LMAO.
           </p>
-          <Link href="/" className="px-4 py-2 bg-foreground w-fit text-white rounded-full">
+          {/* <Link href="/" className="px-4 py-2 bg-foreground w-fit text-white rounded-full">
             More About Me
-          </Link>
+          </Link> */}
         </div>
       </div>
       <div className=" w-full flex flex-col justify-center items-center gap-10 py-20">

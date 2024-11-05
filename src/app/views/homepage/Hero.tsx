@@ -23,7 +23,7 @@ const Hero = () => {
         </div> */}
       </div>
       <p className={`${reenieBeanie.className} text-5xl`}>-an Full Stack Developer </p>
-      <Link href="/" className="py-2 px-4 bg-foreground text-white font-semibold rounded-full mt-10">
+      <Link href="https://github.com/Ahmad-Hafizh" className="py-2 px-4 bg-foreground text-white font-semibold rounded-full mt-10">
         Visit My Github
       </Link>
     </div>
