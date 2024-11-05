@@ -36,7 +36,7 @@ const Footer = () => {
               <Image src="/handCallSign.svg" width={50} height={50} alt="hand call sign icon" />
             </span>
           </p>
-          <p className="text-white text-sm mt-2">Send me a reach out, I'll contact you ASAP</p>
+          <p className="text-white text-sm mt-2">Send me a reach out, I&apos;ll contact you ASAP</p>
         </div>
         <div className="flex flex-col gap-2">
           <input type="text" className="w-full bg-transparent p-2 border-b-2 border-[#ececec]" placeholder="name" />

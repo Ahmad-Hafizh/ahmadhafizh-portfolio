@@ -1,10 +1,8 @@
 import Image from 'next/image';
-import React from 'react';
 import { reenieBeanie } from '@/app/layout';
 import { FaHtml5, FaCss3Alt } from 'react-icons/fa';
 import { IoLogoJavascript } from 'react-icons/io5';
 import { RiNextjsFill, RiTailwindCssFill } from 'react-icons/ri';
-import Link from 'next/link';
 
 const About = () => {
   return (
@@ -17,7 +15,7 @@ const About = () => {
           <h2 className={`${reenieBeanie.className} text-5xl flex gap-2 `}>introduction</h2>
           <p className="text-5xl font-bold">A Full-stack Developer based in Indonesia</p>
           <p>
-            I{"'"}ve always had strong passion in coding, designing & problem-solving, which is the passions that I take as my carrer path as web developer. For me a good Website Developer is should be capable to design both appealing
+            I&apos;ve always had strong passion in coding, designing & problem-solving, which is the passions that I take as my carrer path as web developer. For me a good Website Developer is should be capable to design both appealing
             visual & sustainable systems, which I{"'"}m bout to be LMAO.
           </p>
           {/* <Link href="/" className="px-4 py-2 bg-foreground w-fit text-white rounded-full">

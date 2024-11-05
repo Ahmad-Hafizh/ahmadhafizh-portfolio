@@ -6,11 +6,11 @@ const Hero = () => {
   return (
     <div className="w-full h-screen flex flex-col justify-center items-center">
       <p className={`${reenieBeanie.className} text-5xl flex gap-2 `}>
-        Hi Folks{' '}
+        Hi Folks
         <span>
           <Image src="/hand.svg" width={32} height={32} alt="hand high five image" />
         </span>
-        , I{"'"}m{' '}
+        , I&apos;m
       </p>
       <div className="flex">
         <h1 className="text-8xl font-black uppercase ">
