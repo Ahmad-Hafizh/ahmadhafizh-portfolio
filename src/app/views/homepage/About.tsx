@@ -1,5 +1,5 @@
+import { reenieBeanie } from '@/app/page';
 import Image from 'next/image';
-import { reenieBeanie } from '@/app/layout';
 import { FaHtml5, FaCss3Alt } from 'react-icons/fa';
 import { IoLogoJavascript } from 'react-icons/io5';
 import { RiNextjsFill, RiTailwindCssFill } from 'react-icons/ri';

@@ -1,8 +1,7 @@
+import { reenieBeanie } from '@/app/page';
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
-import { reenieBeanie } from '@/app/layout';
-
 const Footer = () => {
   return (
     <footer className="container mx-auto flex px-[5%] min-h-[50vh] h-full py-10 border-t-2 items-stretch">

@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 // import localFont from "next/font/local";
 import './globals.css';
 import Navbar from '@/components/Navbar';
-import { Reenie_Beanie, Montserrat } from 'next/font/google';
+import { Montserrat } from 'next/font/google';
 import Footer from '@/components/Footer';
 
 // const geistSans = localFont({
@@ -15,7 +15,7 @@ import Footer from '@/components/Footer';
 //   variable: "--font-geist-mono",
 //   weight: "100 900",
 // });
-export const reenieBeanie = Reenie_Beanie({ weight: '400', subsets: ['latin'] });
+
 export const montserrat = Montserrat({ weight: ['500', '700', '900'], subsets: ['latin'] });
 
 export const metadata: Metadata = {
