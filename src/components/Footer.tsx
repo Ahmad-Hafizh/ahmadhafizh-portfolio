@@ -31,7 +31,7 @@ const Footer = () => {
       <div className="w-1/2 bg-foreground p-10 rounded-xl flex flex-col gap-5 justify-center">
         <div>
           <p className="text-5xl text-white font-bold flex items-center gap-2">
-            Lets Keep in Touch{' '}
+            Lets Keep in Touch
             <span>
               <Image src="/handCallSign.svg" width={50} height={50} alt="hand call sign icon" />
             </span>
