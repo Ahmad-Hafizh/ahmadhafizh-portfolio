@@ -1,6 +1,6 @@
-import About from './views/homepage/About';
-import Hero from './views/homepage/Hero';
-import Projects from './views/homepage/Projects';
+import About from '../views/homepage/About';
+import Hero from '../views/homepage/Hero';
+import Projects from '../views/homepage/Projects';
 import { Reenie_Beanie } from 'next/font/google';
 
 export const reenieBeanie = Reenie_Beanie({ weight: '400', subsets: ['latin'] });
