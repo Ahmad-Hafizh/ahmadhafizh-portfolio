@@ -1,7 +1,6 @@
 import * as React from 'react';
 
 interface IProjectDetailLayoutProps {
-  params: { id: string };
   children: React.ReactNode;
 }
 
